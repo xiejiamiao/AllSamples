@@ -10,7 +10,7 @@ namespace RedisSample01
         static async Task Main(string[] args)
         {
 
-            var redis = new CSRedisClient("127.0.0.1:6379,defaultDatabase=0,prefix=ds_");
+            var redis = new CSRedisClient("192.168.3.177:6379,defaultDatabase=0,prefix=ds_");
             RedisHelper.Initialization(redis);
 
             Console.WriteLine("↓↓↓↓↓ String Sample ↓↓↓↓↓");

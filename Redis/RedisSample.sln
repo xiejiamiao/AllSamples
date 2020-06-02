@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSample01", "RedisSample01\RedisSample01.csproj", "{CD3CE13C-09B7-4D79-BE96-DC75B3E8B85E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisSample01", "RedisSample01\RedisSample01.csproj", "{CD3CE13C-09B7-4D79-BE96-DC75B3E8B85E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSample02", "RedisSample02\RedisSample02.csproj", "{53F65BF6-FC19-4381-ABD7-4A0DDE3FD91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisSample02", "RedisSample02\RedisSample02.csproj", "{53F65BF6-FC19-4381-ABD7-4A0DDE3FD91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisClusterSample", "RedisClusterSample\RedisClusterSample.csproj", "{E88A3E30-5174-4A60-9430-9BF50716C4A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{53F65BF6-FC19-4381-ABD7-4A0DDE3FD91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F65BF6-FC19-4381-ABD7-4A0DDE3FD91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F65BF6-FC19-4381-ABD7-4A0DDE3FD91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88A3E30-5174-4A60-9430-9BF50716C4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88A3E30-5174-4A60-9430-9BF50716C4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88A3E30-5174-4A60-9430-9BF50716C4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88A3E30-5174-4A60-9430-9BF50716C4A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
